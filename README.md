@@ -1,4 +1,4 @@
-RTOS-Basics-C-Implementation
+## RTOS-Basics-C-Implementation
 
 ## Overview
 
@@ -29,14 +29,13 @@ These examples simulate real-time embedded task coordination and resource protec
 ## Project Structure
 
 ```
-Embedded-RTOS-Basics-C-Implementation/
+RTOS_Codes/
 │
 ├── process_demo.c
 ├── thread_demo.c
 ├── critical_section_demo.c
 ├── mutex_demo.c
 ├── binary_semaphore_demo.c
-└── README.md
 ```
 
 ---
@@ -155,16 +154,5 @@ Embedded mapping examples:
 * Mutex → I2C/SPI bus protection
 * Binary Semaphore → ISR to Task signaling
 * Critical Section → Shared variable protection
-
----
-
-## Learning Outcome
-
-After completing this project, you will understand:
-
-* How concurrency works internally
-* How race conditions occur
-* How RTOS synchronization mechanisms solve them
-* Practical implementation of synchronization primitives
 
 ---
