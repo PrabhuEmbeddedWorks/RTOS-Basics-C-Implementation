@@ -35,7 +35,7 @@ RTOS_Codes/
 ├── thread_demo.c
 ├── critical_section_demo.c
 ├── mutex_demo.c
-├── binary_semaphore_demo.c
+└── binary_semaphore_demo.c
 ```
 
 ---
